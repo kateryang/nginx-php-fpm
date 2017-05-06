@@ -62,9 +62,9 @@ if [ ! -d "/var/www/html/.git" ]; then
 fi
 
 # Try auto install for composer
-if [ -f "$WEBROOT/composer.lock" ]; then
-  php composer.phar install --no-dev
-fi
+#if [ -f "$WEBROOT/composer.lock" ]; then
+#  php composer.phar install --no-dev
+#fi
 
 # Enable custom nginx config files if they exist
 if [ -f /var/www/html/conf/nginx/nginx-site.conf ]; then
