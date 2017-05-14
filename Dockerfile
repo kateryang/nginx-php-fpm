@@ -65,7 +65,6 @@ RUN GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
     pcre-dev \
     zlib-dev \
     linux-headers \
-    gettext-base \
     curl \
     gnupg \
     libxslt-dev \
@@ -156,6 +155,7 @@ RUN echo @testing http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repo
     libmcrypt-dev \
     libpng-dev \
     icu-dev \
+    gettext-dev \
     libpq \
     libxslt-dev \
     libffi-dev \
